@@ -1,8 +1,8 @@
-library(ISLR)
+library(ISLR2)
 library(readr)
 
 # Load list of datasets
-datasets <- data(package = "ISLR")
+datasets <- data(package = "ISLR2")
 # Pull out vector of dataset names
 dataset_names <- datasets$results[,"Item"]
 
